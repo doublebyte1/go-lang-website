@@ -1,6 +1,6 @@
 ---
-title: The Go Programming Language
-summary: Go is an open source programming language that makes it simple to build secure, scalable systems.
+title: OGC Developer Website
+summary: OGC developer resources.
 ---
 
 {{$canShare := not googleCN}}
@@ -8,31 +8,25 @@ summary: Go is an open source programming language that makes it simple to build
 <section class="Hero bluebg">
   <div class="Hero-gridContainer">
     <div class="Hero-blurb">
-      <h1>Build simple, secure, scalable systems with Go</h1>
+      <h1>Build interoperable applications with OGC APIs</h1>
       <ul class="Hero-blurbList">
         <li>
           <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="white" fill-opacity="0.87">
           </svg>
-          An open-source programming language supported by Google
+          Providing a consistent way for different systems to interoperate and share geospatial data.
         </li>
         <li>
           <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="white" fill-opacity="0.87">
           </svg>
-          Easy to learn and great for teams
+          Enabling applications to more easily access and use geospatial data from a wide variety of sources.
         </li>
         <li>
           <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="white" fill-opacity="0.87">
           </svg>
-          Built-in concurrency and a robust standard library
-        </li>
-        <li>
-          <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z" fill="white" fill-opacity="0.87">
-          </svg>
-          Large ecosystem of partners, communities, and tools
+          Made by developers, for developers.
         </li>
       </ul>
     </div>
@@ -40,37 +34,23 @@ summary: Go is an open source programming language that makes it simple to build
       <div
         data-version=""
         class="js-latestGoVersion">
-        <a class="Primary" href="/learn/">Get Started</a>
         <a class="Secondary js-downloadBtn"
           href="/dl"
-          >Download
+          >Learn More
         </a>
-      </div>
-      <div class="Hero-footnote">
-        <p>
-          Download packages for
-          <a class="js-downloadWin">Windows 64-bit</a>,
-          <a class="js-downloadMac">macOS</a>,
-          <a class="js-downloadLinux">Linux</a>, and
-          <a href="/dl/">more</a>
-        </p>
-        <p>
-          The <code>go</code> command by default downloads and authenticates
-          modules using the Go module mirror and Go checksum database run by
-          Google. <a href="/dl">Learn more.</a>
-        </p>
+        <a class="Primary" href="/learn/">Get Started</a>
       </div>
     </div>
     <div class="Hero-gopher">
-      <img class="Hero-gopherLadder" src="/images/gophers/ladder.svg" alt="Go Gopher climbing a ladder.">
+      <img class="Hero-gopherLadder" src="/images/sockets.svg" alt="Go Gopher climbing a ladder.">
     </div>
   </div>
 </section>
 <section class="WhoUses">
   <div class="WhoUses-gridContainer">
     <div class="WhoUses-header">
-      <h2 class="WhoUses-headerH2">Companies using Go</h2>
-      <p class="WhoUses-subheader">Organizations in every industry use Go to power their software and services
+      <h2 class="WhoUses-headerH2">Organizations using OGC APIs</h2>
+      <p class="WhoUses-subheader">Organizations in every sector use OGC APIs to share their geospatial data
         <a href="/solutions/" class="WhoUsesCaseStudyList-seeAll">
         View all stories
        </a>

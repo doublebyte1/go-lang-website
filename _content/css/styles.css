@@ -36,9 +36,10 @@
   --yellow: #fddd00;
   --yellow-light: #fff8cc;
   --testimonial: #007f9f;
+  --ogc-blue: #00b1ff;
 
   /* Color Intents */
-  --color-brand-primary: var(--turq-dark);
+  --color-brand-primary: var(--ogc-blue);
   --color-background: var(--white);
   --color-background-inverted: var(--slate);
   --color-background-accented: var(--gray-10);
@@ -47,7 +48,9 @@
   --color-background-info: var(--gray-9);
   --color-background-warning: var(--yellow-light);
   --color-background-alert: var(--pink-light);
-  --color-background-banner: var(--turq-dark);
+  /* --color-background-banner: var(--turq-dark); */
+  --color-background-banner: var( --ogc-blue);
+
   --color-background-card-footer: var(--gray-10);
   --color-background-carousel-button: var(--white);
   --color-background-code: var(--gray-10);
@@ -72,7 +75,7 @@
   --color-button-inverted-disabled: var(--color-background);
   --color-button-inverted-text: var(--color-brand-primary);
   --color-button-inverted-text-disabled: var(--color-text-subtle);
-  --color-button-accented: var(--yellow);
+  --color-button-accented: var(--white);
   --color-button-accented-disabled: var(--gray-9);
   --color-button-accented-text: var(--gray-1);
   --color-button-accented-text-disabled: var(--gray-3);
